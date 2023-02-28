@@ -6,11 +6,12 @@ function Portafolio(props) {
         <div id='portafolio' className='servicios container'>
             <h1 className='subtitle my-5'>Portafolio</h1>
             <div>
-                <ul className="nav nav-tabs nav-justified  " id="myTab" role="tablist">
-                    <li className="nav-item w-50 " role="presentation">
+                
+                <ul className="nav nav-tabs d-flex flex-row justify-content-start " id="myTab" role="tablist">
+                    <li className="nav-item " role="presentation">
                         <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><i className="bi bi-table"></i></button>
                     </li>
-                    <li className="nav-item w-50 " role="presentation">
+                    <li className="nav-item " role="presentation">
                         <button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i className="bi bi-grid-3x3-gap-fill"></i></button>
                     </li>
                 </ul>
