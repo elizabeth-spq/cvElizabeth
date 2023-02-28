@@ -1,0 +1,41 @@
+.expe1{
+    text-align: left;
+    margin: 20px;
+}
+.line{
+    position: absolute;
+    width: 1px;    
+    top: 37px;
+    bottom: 30px;
+    left: 36px; 
+}
+.bag-icon{
+    background: #FFF;
+    font-family: "simple-line-icons";
+    font-size: 25px;   
+    position: absolute;
+    left: -11px;
+    top: 0;
+    z-index: 1;
+}
+.red-icon{
+    color: #FF4C60;
+}
+.red-grey-icon{
+    color: #ff8291;
+}
+.red-line{
+    background-color: #FF4C60;
+}
+.red-grey-line{
+    background-color: #ff8291;
+}
+.hab-gray{
+    color: rgb(165, 165, 165);
+}
+
+
+
+
+
+

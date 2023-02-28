@@ -1,0 +1,33 @@
+.fondoinicio {
+    background-color: var(--first-color);
+    height: 754px;
+    display: grid;
+    color: var(--sixeth-color);
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.btnContacto{
+    background-color: var(--fifth-color);
+    color: white;
+    height: auto;
+    width: auto;
+    padding: 8px 25px ;
+    border-radius: 25px;
+    border-color: var(--fifth-color);
+    font-weight: 600;
+}
+.btnredes{
+    font-size: 23px;
+    color: white; 
+}
+.txtDescrip{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+#txtprincipal{
+    font-size: 36px;
+    font-weight: 600;
+
+}
