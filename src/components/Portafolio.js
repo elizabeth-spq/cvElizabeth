@@ -19,6 +19,7 @@ function Portafolio(props) {
 
                     </div>
                     <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <p></p>
 
                     </div>
                 </div>
