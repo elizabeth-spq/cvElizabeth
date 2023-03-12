@@ -45,7 +45,7 @@ main{
 }
 
 .nav-logo,
-.nav-link{
+.nav-link-sidebar{
     display: grid;
     grid-template-columns: max-content max-content;
     column-gap: 2rem;
@@ -54,12 +54,12 @@ main{
     
 }
 
-.nav-link{
+.nav-link-sidebar{
     position: relative ;
     transition: .5s;
     margin-top: 0.5rem;
 }
-.nav-link:hover, .nav-logo:hover{
+.nav-link-sidebar:hover, .nav-logo:hover{
     color: var(--fourth-color);
 }
 

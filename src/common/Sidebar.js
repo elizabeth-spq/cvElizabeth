@@ -25,23 +25,23 @@ function Sidebar(props) {
                             </span>
                         </a>
                         <div className="nav-list">
-                            <a href="#aboutme" className="nav-link ">
+                            <a href="#aboutme" className="nav-link  nav-link-sidebar">
                                 <i className="bi bi-person-check nav-logo-icon"></i>
                                 <span className="nav-logo-name">Sobre mi</span>
                             </a>
-                            <a href="#servicios" className="nav-link">
+                            <a href="#servicios" className="nav-link nav-link-sidebar">
                                 <i className="bi bi-briefcase nav-logo-icon"></i>
                                 <span className="nav-logo-name">Servicios</span>
                             </a>
-                            <a href="#experiencia" className="nav-link">
+                            <a href="#experiencia" className="nav-link nav-link-sidebar">
                                 <i className="bi bi-mortarboard nav-logo-icon"></i>
                                 <span className="nav-logo-name">Experiencia</span>
                             </a>
-                            <a href="#portafolio" className="nav-link">
+                            <a href="#portafolio" className="nav-link nav-link-sidebar">
                                 <i className="bi bi-folder-check nav-logo-icon"></i>
                                 <span className="nav-logo-name">Portafolio</span>
                             </a>
-                            <a href="#contacto" className="nav-link">
+                            <a href="#contacto" className="nav-link nav-link-sidebar">
                                 <i className="bi bi-chat nav-logo-icon"></i>
                                 <span className="nav-logo-name">Contacto</span>
                             </a>
