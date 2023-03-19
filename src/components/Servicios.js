@@ -17,7 +17,7 @@ function Servicios(props) {
                         </div>
                         <div class="card-body  ">
                             <h5 class="card-title fs-4 fw-bolder px-3">Desarrolladora de Software</h5>
-                            <p class="card-text pt-3 pb-3" >Desarrollo de Software - ISIL <br /> Terciario/Técnico - En Curso <br /> desde 01-08-2021  hasta la fecha </p>
+                            <p class="card-text pt-3 pb-3">Terciario/Técnico - En Curso <br/> <span className='fw-bolder px-2'>Desarrollo de Software - ISIL</span>  <br />  desde 01-08-2021  hasta la fecha </p>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ function Servicios(props) {
                         </div>
                         <div class="card-body px-2">
                             <h5 class="card-title fs-4 fw-bolder"> Inglés</h5>
-                            <p class="card-text pt-3 pb-3 ">Centro Cultural Peruano Norteamericano <br /> Terciario/Técnico <br />desde 01-01-2016 hasta 31-07-2019 </p>
+                            <p class="card-text pt-3 pb-3  "> Terciario/Técnico <br /> <span className='fw-bolder px-2'>Centro Cultural Peruano Norteamericano</span>  <br /> desde 01-01-2016 hasta 31-07-2019 </p>
                         </div>
                     </div> 
                 </div>
@@ -39,7 +39,7 @@ function Servicios(props) {
                         </div>
                         <div class="card-body px-2">
                             <h5 class="card-title fs-4 fw-bolder">Arquitectura</h5>
-                            <p class="card-text pt-3 pb-3 ">Universidad Nacional San Agustín De Arequipa <br /> Universitario - Graduado <br />desde 01-03-2012 hasta 01-07-2017 </p>
+                            <p class="card-text pt-3 pb-3"> Universitario - Graduado <br /> <span className='fw-bolder px-2'>Universidad Nacional San Agustín De Arequipa</span> <br /> desde 01-03-2012 hasta 01-07-2017 </p>
                         </div>
                     </div>
                 </div>

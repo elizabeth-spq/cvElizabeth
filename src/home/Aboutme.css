@@ -29,13 +29,13 @@
 }
 .progress-bar-a{
     height: 7px;
-    width: 90%;
+    width: 68%;
     background-color: rgb(255, 196, 0);
     border-radius: 3.5px;
 }
 .progress-bar-b{
     height: 7px;
-    width: 80%;
+    width: 100%;
     background-color: rgb(255, 34, 0);
     border-radius: 3.5px;
 }

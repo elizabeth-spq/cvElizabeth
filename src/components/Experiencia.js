@@ -4,58 +4,10 @@ import './Experiencia.css';
 function Experiencia(props) {
     return (
         <div id='experiencia' className='servicios container'>
-            <h1 className='subtitle mb-5'>Experiencia y Habilidades</h1>
+            <h1 className='subtitle mb-5'>Experiencia </h1>
             <div class="row row-cols-1 row-cols-md-2 g-4">
 
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body position-relative">
-                            <div className='expe1 position-relative mb-5'>
-                                <i class="bi bi-briefcase-fill bag-icon red-grey-icon"></i>
-                                <div className='ps-5'>
-                                    <small>01-03-2020 - 01-08-2021</small> <br />
-                                    <div className='vr w-auto'></div>
-                                    <small>Auxiliar de diseño de interiores</small>
-                                    <h5 class="card-title">HOMY DESING</h5>
-                                    <p class="card-text">Asistencia en proyectos de diseño interior. Modelado de propuestas en 3d, diseño
-                                        de espacios multifuncionales y remodelación de viviendas y espacios abiertos.</p>
-                                </div>
-                            </div>
-                            <div className='expe1 position-relative mb-5'>
-                                <i class="bi bi-briefcase-fill bag-icon red-grey-icon"></i>
-                                <div className='ps-5'>
-                                    <small>01-03-2019 - 01-05-2021</small>
-                                    <small>Diseñadora de arquitectura</small>
-                                    <h5 class="card-title">OLIBANDO S.A.C</h5>
-                                    <p class="card-text">Diseño de viviendas, diseño de mobiliario, Trámites de licencia de construcción,
-                                        metrados, costos y presupuestos, asistencia en proyectos arquitectónicos y
-                                        diseño interior.</p>
-                                </div>
-                            </div>
-                            <div className='expe1 position-relative mb-5'>
-                                <i class="bi bi-briefcase-fill bag-icon red-grey-icon"></i>
-                                <div className='ps-5'>
-                                    <small>01-08-2018 - 01-12-2018</small> <br />
-                                    <small>Arquitecta en prácticas</small>
-                                    <h5 class="card-title">MUNICIPALIDAD DE CERRO COLORADO</h5>
-                                    <p class="card-text">Revisión de expedientes de Licencia de Edificación y Regularización de Licencias
-                                        de Edificación.</p>
-                                </div>
-                            </div>
-                            <div className='expe1 position-relative mb-5'>
-                                <i class="bi bi-briefcase-fill bag-icon red-grey-icon"></i>
-                                <div className='ps-5'>
-                                    <small>01-03-2018 - 01-04-2018</small> <br />
-                                    <small>Arquitecta técnica</small>
-                                    <h5 class="card-title">PROVEN GROUP S.A.C.</h5>
-                                    <p class="card-text">Actualización de Layout de las tiendas en Arequipa del hipermercado Metro.</p>
-                                </div>
-                            </div>
-                            <span className='line red-line'></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
+            <div class="col">
                     <div class="card h-100">
                         <div class="card-body position-relative">
                             <div className='expe1 position-relative'>
@@ -119,11 +71,60 @@ function Experiencia(props) {
                         </div>
                     </div>
                 </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body position-relative">
+                            <div className='expe1 position-relative mb-5'>
+                                <i class="bi bi-briefcase-fill bag-icon red-grey-icon"></i>
+                                <div className='ps-5'>
+                                    <small>01-03-2020 - 01-08-2021</small> <br />
+                                    <div className='vr w-auto'></div>
+                                    <small>Auxiliar de diseño de interiores</small>
+                                    <h5 class="card-title">HOMY DESING</h5>
+                                    <p class="card-text">Asistencia en proyectos de diseño interior. Modelado de propuestas en 3d, diseño
+                                        de espacios multifuncionales y remodelación de viviendas y espacios abiertos.</p>
+                                </div>
+                            </div>
+                            <div className='expe1 position-relative mb-5'>
+                                <i class="bi bi-briefcase-fill bag-icon red-grey-icon"></i>
+                                <div className='ps-5'>
+                                    <small>01-03-2019 - 01-05-2021</small>
+                                    <small>Diseñadora de arquitectura</small>
+                                    <h5 class="card-title">OLIBANDO S.A.C</h5>
+                                    <p class="card-text">Diseño de viviendas, diseño de mobiliario, Trámites de licencia de construcción,
+                                        metrados, costos y presupuestos, asistencia en proyectos arquitectónicos y
+                                        diseño interior.</p>
+                                </div>
+                            </div>
+                            <div className='expe1 position-relative mb-5'>
+                                <i class="bi bi-briefcase-fill bag-icon red-grey-icon"></i>
+                                <div className='ps-5'>
+                                    <small>01-08-2018 - 01-12-2018</small> <br />
+                                    <small>Arquitecta en prácticas</small>
+                                    <h5 class="card-title">MUNICIPALIDAD DE CERRO COLORADO</h5>
+                                    <p class="card-text">Revisión de expedientes de Licencia de Edificación y Regularización de Licencias
+                                        de Edificación.</p>
+                                </div>
+                            </div>
+                            <div className='expe1 position-relative mb-5'>
+                                <i class="bi bi-briefcase-fill bag-icon red-grey-icon"></i>
+                                <div className='ps-5'>
+                                    <small>01-03-2018 - 01-04-2018</small> <br />
+                                    <small>Arquitecta técnica</small>
+                                    <h5 class="card-title">PROVEN GROUP S.A.C.</h5>
+                                    <p class="card-text">Actualización de Layout de las tiendas en Arequipa del hipermercado Metro.</p>
+                                </div>
+                            </div>
+                            <span className='line red-line'></span>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
 
             <div className='hab-gray'>
                 <div className='col'>
-                    <h4 className='py-5'>Otras Habilidades</h4>
+                    <h4 className='py-5'>Habilidades</h4>
                 </div>
 
                 <div className='row align-items-end'>
