@@ -22,6 +22,7 @@ function Inicio(props) {
                         </div>
                         <div>                           
                             <button className='btnContacto'>Contactar</button>
+                            <p>holi</p>
                         </div>
                     </div>
                 )}
