@@ -11,46 +11,9 @@
     padding-top: 80px;
 
 }
-.description{
-    
-    display: flex;
-    box-sizing: border-box;
-    background-color: #FFFFFF;
-    box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 20px 20px 20px 20px;
-    border-radius: 20px 20px 20px 20px;
-}
-.progress{
-    width: auto;
-    height: 7px;
-    background-color: rgb(214, 214, 214);
-    border-radius: 3.5px;
-}
-.progress-bar-a{
-    height: 7px;
-    width: 68%;
-    background-color: rgb(255, 196, 0);
-    border-radius: 3.5px;
-}
-.progress-bar-b{
-    height: 7px;
-    width: 100%;
-    background-color: rgb(255, 34, 0);
-    border-radius: 3.5px;
-}
-.btn-download{
-    width:auto;
-    color: #FFF;
-    background: #FF4C60;
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 60px;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 12px 32px;
-    border: none;
-}
+
+
+/*Progress bar*/
 .ingles{
     width: 75%;
     background-color: rgb(255, 196, 0);
@@ -59,3 +22,36 @@
     width: 100%;
     background-color: rgb(255, 34, 0);    
 }
+
+
+/* card contenedor con forma */
+.description{
+    display: flex;
+    box-sizing: border-box;   
+}
+.tooltip-left {
+    /* Modify size here: */
+    --size: 500px;
+    --padding: 20px;
+  
+    position: relative;
+    width: auto - var(--padding);
+    height: auto;
+    background: #ffffff;
+    padding: var(--padding);
+    color: rgb(27, 27, 27);
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  }
+  
+  .tooltip-left:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #ffffff;
+    height: 16px;
+    width: 16px;
+  }

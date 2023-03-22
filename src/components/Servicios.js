@@ -48,9 +48,7 @@ function Servicios(props) {
                 <small className='minText fs-6 '>Interesado en algún servicio? <a href="#contacto" className='link-danger'> Click aquí</a>  para contactarme! 👋</small>
             </div>
 
-            <div className='tooltip-left'>
-                
-            </div>
+            
 
         </div>
     );

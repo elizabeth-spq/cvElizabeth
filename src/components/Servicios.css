@@ -51,29 +51,3 @@
     transform: translateY(-3%);
 }
 
-
-.tooltip-left {
-    /* Modify size here: */
-    --size: 500px;
-    --padding: 10px;
-  
-    position: relative;
-    width: calc(var(--size) - var(--padding));
-    height: calc(var(--size) / 2);
-    background: #333;
-    padding: var(--padding);
-    color: white;
-    border-radius: 10px;
-    box-shadow: rgb(136, 136, 228) 0px 7px 20px 0px; 
-  }
-  
-  .tooltip-left:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(-50%, -50%) rotate(45deg);
-    background: #333;
-    height: 16px;
-    width: 16px;
-  }
