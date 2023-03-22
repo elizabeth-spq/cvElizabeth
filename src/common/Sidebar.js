@@ -31,7 +31,7 @@ function Sidebar(props) {
                             </a>
                             <a href="#servicios" className="nav-link nav-link-sidebar">
                                 <i className="bi bi-briefcase nav-logo-icon"></i>
-                                <span className="nav-logo-name">Servicios</span>
+                                <span className="nav-logo-name">Estudios</span>
                             </a>
                             <a href="#experiencia" className="nav-link nav-link-sidebar">
                                 <i className="bi bi-mortarboard nav-logo-icon"></i>

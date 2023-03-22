@@ -45,7 +45,7 @@ function Servicios(props) {
                 </div>
             </div>
             <div className='text-center my-5'>
-                <small className='minText fs-6 '>Interesado en algún servicio? <a href="" className='link-danger'> Click aquí</a>  para contactarme! 👋</small>
+                <small className='minText fs-6 '>Interesado en algún servicio? <a href="#contacto" className='link-danger'> Click aquí</a>  para contactarme! 👋</small>
             </div>
 
         </div>

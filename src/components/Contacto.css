@@ -1,0 +1,29 @@
+#contactoMensaje h3{
+    color: #454360;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+#contactoMensaje h5{
+    color: #454360;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.form-control{
+    height: 50px;
+    border-radius: 50px;
+}
+.form-control::placeholder{
+    color: rgb(196, 196, 196);
+}
+#frmTextArea textarea{
+    height: 120px;
+    border-radius: 25px;   
+
+}
+
+#btnContactar{
+    height: 100px ;
+}
