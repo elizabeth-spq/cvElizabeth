@@ -38,3 +38,9 @@ input::selection{
 #btnContactar{
     height: 100px ;
 }
+
+.validar{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(223, 121, 121);
+}

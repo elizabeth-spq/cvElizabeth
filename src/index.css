@@ -59,6 +59,27 @@ ul{
     padding: 15px 20px ;
     box-shadow: 0.3em 0.3em 1em rgba(28, 28, 28, 0.3);  
 }
+/*Boton 2*/
+.btnBontonb{
+    background-color: rgb(202, 202, 202);
+    color: white;
+    height: auto;
+    width: auto;
+    padding: 18px 28px ;
+    border-radius: 30px;
+    border-color: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 400ms ease;
+   /* transition: padding 0.1s;*/
+    border: none;
+    box-sizing: border-box;
+}
+.btnBontonb:hover{    
+    padding: 15px 20px ;
+    box-shadow: 0.3em 0.3em 1em rgba(28, 28, 28, 0.3); 
+    background-color: var(--fifth-color); 
+}
 
 
 @media screen  and (min-width: 820px){
