@@ -7,16 +7,7 @@
     text-align: center;
     color: white;
 }
-.btnContacto{
-    background-color: var(--fifth-color);
-    color: white;
-    height: auto;
-    width: auto;
-    padding: 8px 25px ;
-    border-radius: 25px;
-    border-color: var(--fifth-color);
-    font-weight: 600;
-}
+
 .btnredes{
     font-size: 23px;
     color: white; 

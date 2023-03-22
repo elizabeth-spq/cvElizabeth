@@ -5,6 +5,11 @@ function Aboutme(props) {
     return (
         <div id='aboutme' className='sobremi container'>
             <h1 className='subtitle mb-5'>Sobre Mi</h1>
+
+
+
+
+            
             <div className='description margin-description mb-5'>
                 <div className="row ">
                     <div className="col">
