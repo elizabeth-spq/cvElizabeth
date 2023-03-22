@@ -50,5 +50,12 @@
     font-weight: 700;
     padding: 12px 32px;
     border: none;
-
+}
+.ingles{
+    width: 75%;
+    background-color: rgb(255, 196, 0);
+}
+.espanol{
+    width: 100%;
+    background-color: rgb(255, 34, 0);    
 }

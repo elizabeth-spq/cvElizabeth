@@ -21,8 +21,7 @@ function Inicio(props) {
                             <a href={item.linkedl}><i class="bi bi-linkedin  px-2 text-light"></i></a>
                         </div>
                         <div className='mt-5'>                           
-                            <a href='#contacto' className='btnBontona text-light'>Contactar</a>
-                            
+                            <a href='#contacto' className='btnBontona text-light'>Contactar</a>                            
                         </div>
                     </div>
                 )}
