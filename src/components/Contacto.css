@@ -14,6 +14,17 @@
 .form-control{
     height: 50px;
     border-radius: 50px;
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+input::selection{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.form-control:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+    border-color: white;   
 }
 .form-control::placeholder{
     color: rgb(196, 196, 196);

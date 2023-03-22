@@ -24,13 +24,56 @@
 }
 .card-color-1{
     background-color: var(--fourth-color);
+    box-shadow: rgba(230, 224, 152, 0.852) 0px 7px 20px 0px; 
+    transition: all 400ms ease;
 }
 .card-color-2{
     background-color: #FF4C60;
     color: white; 
+    box-shadow: rgb(228, 136, 136) 0px 7px 20px 0px;
+    transition: all 400ms ease; 
    
 }
 .card-color-3{
     background-color: rgb(108, 108, 229);
     color: white; 
+    box-shadow: rgb(136, 136, 228) 0px 7px 20px 0px; 
+    transition: all 400ms ease;
 }
+
+.card-color-1:hover{
+    transform: translateY(-3%);
+}
+.card-color-2:hover{
+    transform: translateY(-3%);
+}
+.card-color-3:hover{
+    transform: translateY(-3%);
+}
+
+
+.tooltip-left {
+    /* Modify size here: */
+    --size: 500px;
+    --padding: 10px;
+  
+    position: relative;
+    width: calc(var(--size) - var(--padding));
+    height: calc(var(--size) / 2);
+    background: #333;
+    padding: var(--padding);
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgb(136, 136, 228) 0px 7px 20px 0px; 
+  }
+  
+  .tooltip-left:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #333;
+    height: 16px;
+    width: 16px;
+  }
