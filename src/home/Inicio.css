@@ -1,19 +1,24 @@
 .fondoinicio {
-    background-color: #00296B;
+    /*background: rgb(0,80,157);
+    background: radial-gradient(circle, rgba(0,80,157,1) 0%, rgba(0,41,107,1) 73%);
+*/
+background: rgb(121,52,124);
+background: radial-gradient(circle, rgba(121,52,124,1) 0%, rgba(0,41,107,1) 88%);
+
     height: 754px;
     display: grid;
     color: var(--sixeth-color);
     align-content: center;
     text-align: center;
     color: white;
-    
-   
+    /*
+   background-color: #00296B;
     opacity: 1;
     background-image: radial-gradient(#00509D 1.6px, transparent 1.6px), radial-gradient(#00509D 1.6px, #00296B 1.6px);
     background-size: 64px 64px;
     background-position: 0 0, 32px 32px;
     box-sizing: border-box;
-
+*/
 }
 
 
