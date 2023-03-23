@@ -1,24 +1,105 @@
 .fondoinicio {
-    background-color: var(--first-color);
+    background-color: #00296B;
     height: 754px;
     display: grid;
     color: var(--sixeth-color);
     align-content: center;
     text-align: center;
     color: white;
+    
+   
+    opacity: 1;
+    background-image: radial-gradient(#00509D 1.6px, transparent 1.6px), radial-gradient(#00509D 1.6px, #00296B 1.6px);
+    background-size: 64px 64px;
+    background-position: 0 0, 32px 32px;
+    box-sizing: border-box;
+
 }
 
-.btnredes{
+
+.btnredes {
     font-size: 23px;
-    color: white; 
+    color: white;
 }
-.txtDescrip{
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0.2px;
-}
-#txtprincipal{
+
+#txtprincipal {
     font-size: 36px;
     font-weight: 600;
+}
 
+.txtDescrip {
+    line-height: 40px;
+    width: 300px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
+
+.efecto {
+    height: 20px;
+    overflow: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+.profesiones {
+    animation: cambiar 8s infinite;
+}
+
+@keyframes cambiar {
+    0% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: 0;
+    }
+
+    25% {
+        margin-top: -25px;
+    }
+
+    50% {
+        margin-top: -25px;
+    }
+
+    55% {
+        margin-top: -49px;
+    }
+
+    80% {
+        margin-top: -49px;
+    }
+
+    85% {
+        margin-top: -25px;
+    }
+
+    95% {
+        margin-top: -25px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+
+}
+
+/*Color de texto profesiones*/
+.colora {
+    color: var(--third-color);
+    font-weight: 500;
+}
+
+.colorb {
+    color: var(--fourth-color);
+    font-weight: 500;
+}
+
+.colorc {
+    color: var(--fifth-color);
+    font-weight: 500;
 }

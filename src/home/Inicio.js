@@ -14,14 +14,25 @@ function Inicio(props) {
                 {Directory.map(item =>
                     <div key={item.id}>
                         <h1 id='txtprincipal'>Elizabeth Pumacota </h1>
-                        <h5 className='txtDescrip'>Desarrolladora</h5>
+                        <div id='txtDescrip ' className='d-flex justify-content-center efecto '>
+                            <p className='pe-2'>Soy</p>
+                            <div className='profesiones'>
+                                <div className='colorb text-start'>Desarrolladora</div>
+                                <div className=' colora text-start'>Arquitecta</div>
+                                <div className='colorc text-start'>Diseñadora</div>
+
+                            </div>
+
+
+                        </div>
+
                         <div className='btnredes my-4'>
                             <a href={item.gmail}><i className="bi bi-envelope-fill px-2 my-4 text-light"></i></a>
                             <a href={item.github}><i className="bi bi-github px-2 text-light"></i></a>
                             <a href={item.linkedl}><i class="bi bi-linkedin  px-2 text-light"></i></a>
                         </div>
-                        <div className='mt-5'>                           
-                            <a href='#contacto' className='btnBontona text-light'>Contactar</a>                            
+                        <div className='mt-5'>
+                            <a href='#contacto' className='btnBontona text-light'>Contactar</a>
                         </div>
                     </div>
                 )}
