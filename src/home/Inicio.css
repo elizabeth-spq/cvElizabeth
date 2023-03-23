@@ -95,7 +95,7 @@ p {
 
 /*Color de texto profesiones*/
 .colora {
-    color: var(--third-color);
+    color: white;
     font-weight: 500;
 }
 
@@ -105,6 +105,6 @@ p {
 }
 
 .colorc {
-    color: var(--fifth-color);
+    color: white;
     font-weight: 500;
 }
