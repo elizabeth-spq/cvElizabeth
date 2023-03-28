@@ -1,0 +1,10 @@
+.splash{
+    text-align: center;
+    background-color: #00296B;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
